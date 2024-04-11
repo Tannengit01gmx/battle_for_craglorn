@@ -3,6 +3,7 @@
 <game>
     <info name="battle_for_craglorn" version="0.1"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
+
     <map>
        <!-- Territory Definitions -->
 <territory name="DK1"/>
