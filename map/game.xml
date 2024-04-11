@@ -1,0 +1,2456 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="battle_for_craglorn" version="0.1"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <map>
+       <!-- Territory Definitions -->
+<territory name="DK1"/>
+<territory name="DK2"/>
+<territory name="DK3"/>
+<territory name="EM1"/>
+<territory name="EM2"/>
+<territory name="EM3"/>
+<territory name="FDK1"/>
+<territory name="FDK2"/>
+<territory name="FDK3"/>
+<territory name="FDK4"/>
+<territory name="FDK5"/>
+<territory name="FDK6"/>
+<territory name="FDK7"/>
+<territory name="FDK8"/>
+<territory name="FDK9"/>
+<territory name="FDK10"/>
+<territory name="FDK11"/>
+<territory name="FEM1"/>
+<territory name="FEM2"/>
+<territory name="FEM3"/>
+<territory name="FEM4"/>
+<territory name="FEM5"/>
+<territory name="FEM6"/>
+<territory name="FEM7"/>
+<territory name="FEM8"/>
+<territory name="FEM9"/>
+<territory name="FEM10"/>
+<territory name="FEM11"/>
+<territory name="FOT1"/>
+<territory name="FOT2"/>
+<territory name="FOT3"/>
+<territory name="FOT4"/>
+<territory name="FOT5"/>
+<territory name="FOT6"/>
+<territory name="FOT7"/>
+<territory name="FOT8"/>
+<territory name="FOT9"/>
+<territory name="FOT10"/>
+<territory name="FOT11"/>
+<territory name="FRH1"/>
+<territory name="FRH2"/>
+<territory name="FRH3"/>
+<territory name="FRH4"/>
+<territory name="FRH5"/>
+<territory name="FRH6"/>
+<territory name="FRH7"/>
+<territory name="FRH8"/>
+<territory name="FRH9"/>
+<territory name="FRH10"/>
+<territory name="FRH11"/>
+<territory name="FZ1"/>
+<territory name="FZ2"/>
+<territory name="FZ3"/>
+<territory name="FZ4"/>
+<territory name="FZ5"/>
+<territory name="FZ6"/>
+<territory name="FZ7"/>
+<territory name="FZ8"/>
+<territory name="FZ9"/>
+<territory name="FZ10"/>
+<territory name="FZ11"/>
+<territory name="FZ12"/>
+<territory name="FZ13"/>
+<territory name="FZ14"/>
+<territory name="FZ15"/>
+<territory name="FZ16"/>
+<territory name="FZ17"/>
+<territory name="FZ18"/>
+<territory name="FZ19"/>
+<territory name="FZ20"/>
+<territory name="FZ21"/>
+<territory name="FZ22"/>
+<territory name="FZ23"/>
+<territory name="FZ24"/>
+<territory name="FZ25"/>
+<territory name="FZ26"/>
+<territory name="FZ27"/>
+<territory name="FZ28"/>
+<territory name="M1"/>
+<territory name="M2"/>
+<territory name="M3"/>
+<territory name="M4"/>
+<territory name="M5"/>
+<territory name="NO1"/>
+<territory name="NO2"/>
+<territory name="NO3"/>
+<territory name="NO4"/>
+<territory name="NO5"/>
+<territory name="NO6"/>
+<territory name="NO7"/>
+<territory name="NO8"/>
+<territory name="NO9"/>
+<territory name="NO10"/>
+<territory name="NO11"/>
+<territory name="NO12"/>
+<territory name="OT1"/>
+<territory name="OT2"/>
+<territory name="OT3"/>
+<territory name="REL1"/>
+<territory name="RH1"/>
+<territory name="RH2"/>
+<territory name="RH3"/>
+
+<!-- Territory Connections -->
+<connection t1="DK1" t2="DK2"/>
+<connection t1="DK1" t2="NO3"/>
+<connection t1="DK1" t2="NO4"/>
+<connection t1="DK2" t2="DK3"/>
+<connection t1="DK2" t2="FDK2"/>
+<connection t1="DK2" t2="NO3"/>
+<connection t1="DK2" t2="NO4"/>
+<connection t1="DK3" t2="FDK1"/>
+<connection t1="DK3" t2="FDK2"/>
+<connection t1="DK3" t2="NO3"/>
+<connection t1="EM1" t2="EM2"/>
+<connection t1="EM1" t2="NO1"/>
+<connection t1="EM1" t2="NO2"/>
+<connection t1="EM2" t2="EM3"/>
+<connection t1="EM2" t2="FEM7"/>
+<connection t1="EM2" t2="NO1"/>
+<connection t1="EM2" t2="NO2"/>
+<connection t1="EM3" t2="FEM7"/>
+<connection t1="EM3" t2="FEM8"/>
+<connection t1="EM3" t2="FEM9"/>
+<connection t1="EM3" t2="NO1"/>
+<connection t1="FDK1" t2="FDK2"/>
+<connection t1="FDK1" t2="FDK3"/>
+<connection t1="FDK2" t2="FDK3"/>
+<connection t1="FDK2" t2="FDK4"/>
+<connection t1="FDK2" t2="FDK7"/>
+<connection t1="FDK2" t2="NO4"/>
+<connection t1="FDK3" t2="FDK4"/>
+<connection t1="FDK3" t2="FDK5"/>
+<connection t1="FDK3" t2="FDK6"/>
+<connection t1="FDK3" t2="NO9"/>
+<connection t1="FDK4" t2="FDK7"/>
+<connection t1="FDK4" t2="NO9"/>
+<connection t1="FDK5" t2="FDK6"/>
+<connection t1="FDK5" t2="FZ1"/>
+<connection t1="FDK5" t2="FZ2"/>
+<connection t1="FDK6" t2="FZ2"/>
+<connection t1="FDK6" t2="FZ3"/>
+<connection t1="FDK6" t2="NO9"/>
+<connection t1="FDK7" t2="FDK9"/>
+<connection t1="FDK7" t2="NO4"/>
+<connection t1="FDK7" t2="NO9"/>
+<connection t1="FDK8" t2="FDK9"/>
+<connection t1="FDK8" t2="FDK10"/>
+<connection t1="FDK8" t2="FDK11"/>
+<connection t1="FDK8" t2="NO4"/>
+<connection t1="FDK9" t2="FDK11"/>
+<connection t1="FDK9" t2="NO4"/>
+<connection t1="FDK9" t2="NO9"/>
+<connection t1="FDK10" t2="FDK11"/>
+<connection t1="FDK10" t2="FZ9"/>
+<connection t1="FDK10" t2="FZ10"/>
+<connection t1="FDK11" t2="FZ10"/>
+<connection t1="FDK11" t2="FZ11"/>
+<connection t1="FDK11" t2="NO9"/>
+<connection t1="FEM1" t2="FEM2"/>
+<connection t1="FEM1" t2="FEM3"/>
+<connection t1="FEM1" t2="FZ1"/>
+<connection t1="FEM1" t2="FZ2"/>
+<connection t1="FEM2" t2="FEM3"/>
+<connection t1="FEM2" t2="FZ2"/>
+<connection t1="FEM2" t2="FZ3"/>
+<connection t1="FEM2" t2="NO10"/>
+<connection t1="FEM3" t2="FEM4"/>
+<connection t1="FEM3" t2="NO2"/>
+<connection t1="FEM3" t2="NO10"/>
+<connection t1="FEM4" t2="FEM5"/>
+<connection t1="FEM4" t2="FEM7"/>
+<connection t1="FEM4" t2="NO2"/>
+<connection t1="FEM4" t2="NO10"/>
+<connection t1="FEM5" t2="FEM6"/>
+<connection t1="FEM5" t2="FEM7"/>
+<connection t1="FEM5" t2="FEM10"/>
+<connection t1="FEM5" t2="NO10"/>
+<connection t1="FEM6" t2="FEM7"/>
+<connection t1="FEM6" t2="FEM8"/>
+<connection t1="FEM6" t2="FEM9"/>
+<connection t1="FEM6" t2="FEM10"/>
+<connection t1="FEM6" t2="FEM11"/>
+<connection t1="FEM7" t2="FEM8"/>
+<connection t1="FEM7" t2="NO2"/>
+<connection t1="FEM8" t2="FEM9"/>
+<connection t1="FEM9" t2="FEM11"/>
+<connection t1="FEM10" t2="FEM11"/>
+<connection t1="FEM10" t2="FZ6"/>
+<connection t1="FEM10" t2="FZ7"/>
+<connection t1="FEM10" t2="NO10"/>
+<connection t1="FEM11" t2="FZ5"/>
+<connection t1="FEM11" t2="FZ6"/>
+<connection t1="FOT1" t2="FOT2"/>
+<connection t1="FOT1" t2="FOT3"/>
+<connection t1="FOT1" t2="FOT4"/>
+<connection t1="FOT1" t2="FZ14"/>
+<connection t1="FOT1" t2="FZ15"/>
+<connection t1="FOT1" t2="NO12"/>
+<connection t1="FOT2" t2="FOT5"/>
+<connection t1="FOT2" t2="FZ13"/>
+<connection t1="FOT3" t2="FOT4"/>
+<connection t1="FOT3" t2="FOT6"/>
+<connection t1="FOT3" t2="NO12"/>
+<connection t1="FOT4" t2="FOT2"/>
+<connection t1="FOT4" t2="FOT5"/>
+<connection t1="FOT4" t2="FOT6"/>
+<connection t1="FOT5" t2="FOT6"/>
+<connection t1="FOT5" t2="OT3"/>
+<connection t1="FOT6" t2="FOT7"/>
+<connection t1="FOT6" t2="NO8"/>
+<connection t1="FOT6" t2="NO12"/>
+<connection t1="FOT6" t2="OT2"/>
+<connection t1="FOT6" t2="OT3"/>
+<connection t1="FOT7" t2="FOT9"/>
+<connection t1="FOT7" t2="NO8"/>
+<connection t1="FOT7" t2="NO12"/>
+<connection t1="FOT8" t2="FOT9"/>
+<connection t1="FOT8" t2="FOT10"/>
+<connection t1="FOT8" t2="NO8"/>
+<connection t1="FOT9" t2="FOT11"/>
+<connection t1="FOT9" t2="NO8"/>
+<connection t1="FOT9" t2="NO12"/>
+<connection t1="FOT10" t2="FOT11"/>
+<connection t1="FOT10" t2="FZ5"/>
+<connection t1="FOT10" t2="FZ6"/>
+<connection t1="FOT11" t2="FZ6"/>
+<connection t1="FOT11" t2="FZ7"/>
+<connection t1="FOT11" t2="NO12"/>
+<connection t1="FRH1" t2="FRH2"/>
+<connection t1="FRH1" t2="FRH4"/>
+<connection t1="FRH1" t2="FZ9"/>
+<connection t1="FRH2" t2="FRH3"/>
+<connection t1="FRH2" t2="FRH4"/>
+<connection t1="FRH2" t2="FRH5"/>
+<connection t1="FRH2" t2="FRH6"/>
+<connection t1="FRH2" t2="FZ9"/>
+<connection t1="FRH2" t2="FZ10"/>
+<connection t1="FRH3" t2="FRH6"/>
+<connection t1="FRH3" t2="FZ11"/>
+<connection t1="FRH3" t2="NO11"/>
+<connection t1="FRH4" t2="FRH5"/>
+<connection t1="FRH5" t2="FRH6"/>
+<connection t1="FRH5" t2="FRH7"/>
+<connection t1="FRH6" t2="FRH7"/>
+<connection t1="FRH6" t2="FRH8"/>
+<connection t1="FRH6" t2="NO11"/>
+<connection t1="FRH7" t2="FRH8"/>
+<connection t1="FRH7" t2="NO6"/>
+<connection t1="FRH7" t2="RH1"/>
+<connection t1="FRH7" t2="RH2"/>
+<connection t1="FRH7" t2="RH3"/>
+<connection t1="FRH8" t2="FRH9"/>
+<connection t1="FRH8" t2="NO6"/>
+<connection t1="FRH8" t2="NO11"/>
+<connection t1="FRH9" t2="FRH10"/>
+<connection t1="FRH9" t2="FRH11"/>
+<connection t1="FRH9" t2="NO6"/>
+<connection t1="FRH9" t2="NO11"/>
+<connection t1="FRH10" t2="FRH11"/>
+<connection t1="FRH10" t2="FZ14"/>
+<connection t1="FRH10" t2="FZ15"/>
+<connection t1="FRH10" t2="NO11"/>
+<connection t1="FRH11" t2="FZ13"/>
+<connection t1="FRH11" t2="FZ14"/>
+<connection t1="FZ1" t2="FZ2"/>
+<connection t1="FZ2" t2="FZ3"/>
+<connection t1="FZ3" t2="FZ4"/>
+<connection t1="FZ3" t2="NO9"/>
+<connection t1="FZ3" t2="NO10"/>
+<connection t1="FZ4" t2="FZ18"/>
+<connection t1="FZ4" t2="NO9"/>
+<connection t1="FZ4" t2="NO10"/>
+<connection t1="FZ5" t2="FZ6"/>
+<connection t1="FZ6" t2="FZ7"/>
+<connection t1="FZ7" t2="FZ8"/>
+<connection t1="FZ7" t2="NO12"/>
+<connection t1="FZ8" t2="FZ19"/>
+<connection t1="FZ8" t2="FZ20"/>
+<connection t1="FZ8" t2="NO10"/>
+<connection t1="FZ8" t2="NO12"/>
+<connection t1="FZ9" t2="FZ10"/>
+<connection t1="FZ10" t2="FRH3"/>
+<connection t1="FZ10" t2="FZ11"/>
+<connection t1="FZ11" t2="FZ12"/>
+<connection t1="FZ11" t2="NO9"/>
+<connection t1="FZ11" t2="NO11"/>
+<connection t1="FZ12" t2="FZ23"/>
+<connection t1="FZ12" t2="FZ24"/>
+<connection t1="FZ12" t2="NO9"/>
+<connection t1="FZ12" t2="NO11"/>
+<connection t1="FZ13" t2="FZ14"/>
+<connection t1="FZ14" t2="FOT2"/>
+<connection t1="FZ14" t2="FZ15"/>
+<connection t1="FZ15" t2="FZ16"/>
+<connection t1="FZ15" t2="NO11"/>
+<connection t1="FZ15" t2="NO12"/>
+<connection t1="FZ16" t2="FZ21"/>
+<connection t1="FZ16" t2="FZ22"/>
+<connection t1="FZ16" t2="NO11"/>
+<connection t1="FZ16" t2="NO12"/>
+<connection t1="FZ17" t2="FZ4"/>
+<connection t1="FZ17" t2="FZ18"/>
+<connection t1="FZ17" t2="FZ25"/>
+<connection t1="FZ17" t2="M2"/>
+<connection t1="FZ17" t2="NO9"/>
+<connection t1="FZ18" t2="FZ25"/>
+<connection t1="FZ18" t2="FZ27"/>
+<connection t1="FZ18" t2="M1"/>
+<connection t1="FZ18" t2="NO10"/>
+<connection t1="FZ19" t2="FZ20"/>
+<connection t1="FZ19" t2="FZ27"/>
+<connection t1="FZ19" t2="M1"/>
+<connection t1="FZ19" t2="NO10"/>
+<connection t1="FZ20" t2="FZ22"/>
+<connection t1="FZ20" t2="FZ27"/>
+<connection t1="FZ20" t2="FZ28"/>
+<connection t1="FZ20" t2="M4"/>
+<connection t1="FZ20" t2="NO12"/>
+<connection t1="FZ21" t2="FZ22"/>
+<connection t1="FZ21" t2="FZ26"/>
+<connection t1="FZ21" t2="FZ28"/>
+<connection t1="FZ21" t2="M3"/>
+<connection t1="FZ21" t2="NO11"/>
+<connection t1="FZ22" t2="FZ28"/>
+<connection t1="FZ22" t2="M4"/>
+<connection t1="FZ22" t2="NO12"/>
+<connection t1="FZ23" t2="FZ24"/>
+<connection t1="FZ23" t2="FZ25"/>
+<connection t1="FZ23" t2="M2"/>
+<connection t1="FZ23" t2="NO9"/>
+<connection t1="FZ24" t2="FZ25"/>
+<connection t1="FZ24" t2="FZ26"/>
+<connection t1="FZ24" t2="NO11"/>
+<connection t1="FZ25" t2="FZ26"/>
+<connection t1="FZ25" t2="FZ27"/>
+<connection t1="FZ25" t2="M2"/>
+<connection t1="FZ25" t2="M5"/>
+<connection t1="FZ26" t2="FZ28"/>
+<connection t1="FZ26" t2="M3"/>
+<connection t1="FZ26" t2="M5"/>
+<connection t1="FZ27" t2="FZ28"/>
+<connection t1="FZ27" t2="M1"/>
+<connection t1="FZ27" t2="M5"/>
+<connection t1="FZ28" t2="M5"/>
+<connection t1="M1" t2="NO10"/>
+<connection t1="M2" t2="NO9"/>
+<connection t1="M3" t2="FZ24"/>
+<connection t1="M3" t2="NO11"/>
+<connection t1="M4" t2="NO12"/>
+<connection t1="NO5" t2="RH1"/>
+<connection t1="NO5" t2="RH2"/>
+<connection t1="NO5" t2="RH3"/>
+<connection t1="NO6" t2="RH1"/>
+<connection t1="NO7" t2="OT1"/>
+<connection t1="NO7" t2="OT2"/>
+<connection t1="NO7" t2="OT3"/>
+<connection t1="NO8" t2="OT1"/>
+<connection t1="NO8" t2="OT2"/>
+<connection t1="NO10" t2="FZ7"/>
+<connection t1="OT1" t2="OT2"/>
+<connection t1="OT2" t2="OT3"/>
+<connection t1="RH1" t2="RH2"/>
+<connection t1="RH2" t2="RH3"/>
+<connection t1="RH3" t2="FRH5"/>
+    </map>
+
+
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+    <playerList>
+        <player name="OrcTribes" optional="false"/>
+        <player name="EmpireOfMen" optional="false"/>
+	<player name="DwarvenKingdom" optional="false"/>
+        <player name="RatlingHorde" optional="false"/>
+    </playerList>
+    <unitList>
+	<unit name="City"/>
+
+<!-- Units Empire of Men -->
+        <unit name="Spearman"/>
+        <unit name="Halberdier"/> 
+        <unit name="Reiksguard"/>
+        <unit name="Lancer"/>
+        <unit name="Knight of the Crown"/>
+        <unit name="Knight of the Queen"/>
+        <unit name="Bowman"/>
+        <unit name="Crossbowman"/>
+        <unit name="Ogre"/>
+	<unit name="Small Catapult"/>
+	<unit name="Trebuchet"/>
+	<unit name="Chariot"/>
+
+<!-- Units Orc Tribes -->
+        <unit name="Goblin Spearman"/>
+        <unit name="Orc Warrior"/> 
+        <unit name="Black Orc"/>
+        <unit name="Goblin Wolfrider"/>
+	<unit name="Goblin Spiderrider"/>
+        <unit name="Orc Boarrider"/>
+        <unit name="Goblin Bowman"/>
+        <unit name="Orc Crossbowman"/>
+        <unit name="Giant Spider"/>
+	<unit name="Spearthrower"/>
+	<unit name="Goblin Wolf Chariot"/>
+	<unit name="Orc Boar Chariot"/>
+
+<!-- Units Dwarven Kingdom -->
+	<unit name="Dwarven Warrior"/>
+        <unit name="Longbeard"/> 
+        <unit name="Iron Breaker"/>
+        <unit name="Hammerer"/>
+        <unit name="Giant Slayer"/>
+        <unit name="Berserker"/>
+        <unit name="Bat Swarm"/>
+        <unit name="Dwarven Crossbowman"/>
+        <unit name="Cave Troll"/>
+	<unit name="Fire Catapult"/>
+	<unit name="Onager"/>
+	<unit name="Ballista"/>
+
+<!-- Units Rat Horde -->
+	<unit name="Clanrat Warrior"/>
+        <unit name="Night Runner Halberdier"/> 
+        <unit name="Stormvermin"/>
+        <unit name="Plague Censer Bearer"/>
+        <unit name="Rat Rider"/>
+        <unit name="Poison Wind Globadier"/>
+        <unit name="Rat Swarm"/>
+        <unit name="Clanrat Crossbowman"/>
+        <unit name="Rat Ogre"/>
+	<unit name="Swamp Troll"/>
+	<unit name="Doomwheel"/>
+	<unit name="Plague Catapult"/>
+
+<!-- Units Neutral -->
+	<unit name="Craglorn Barbarian"/>
+        <unit name="Craglorn Bowman"/> 
+        <unit name="Craglorn Cave Spider"/>
+        <unit name="Craglorn Stone Giant"/>
+
+    </unitList>
+
+
+
+    <gamePlay>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+        
+        <sequence>
+            <!-- Orc Tribes Game Sequence -->
+            <step name="Orc TribeCombatMove" delegate="move" player="OrcTribes"/>
+            <step name="Orc TribePurchase" delegate="purchase" player="OrcTribes"/>
+            <step name="Orc TribeBattle" delegate="battle" player="OrcTribes"/>
+            <step name="Orc TribeNonCombatMove" delegate="move" player="OrcTribes" display="Non Combat Move"/>
+            <step name="Orc TribePlace" delegate="place" player="OrcTribes"/>
+            <step name="Orc TribeEndTurn" delegate="endTurn" player="OrcTribes"/>
+            <!-- Empire of MEN Game Sequence -->
+            <step name="Empire of MenCombatMove" delegate="move" player="EmpireOfMen"/>
+            <step name="Empire of MenPurchase" delegate="purchase" player="EmpireOfMen"/>
+            <step name="Empire of MenBattle" delegate="battle" player="EmpireOfMen"/>
+            <step name="Empire of MenNonCombatMove" delegate="move" player="EmpireOfMen" display="Non Combat Move"/>
+            <step name="Empire of MenPlace" delegate="place" player="EmpireOfMen"/>
+            <step name="Empire of MenEndTurn" delegate="endTurn" player="EmpireOfMen"/>
+	    <!-- Dwarven Kingdom Game Sequence -->
+            <step name="Dwarven KingdomCombatMove" delegate="move" player="DwarvenKingdom"/>
+            <step name="Dwarven KingdomPurchase" delegate="purchase" player="DwarvenKingdom"/>
+            <step name="Dwarven KingdomBattle" delegate="battle" player="DwarvenKingdom"/>
+            <step name="Dwarven KingdomNonCombatMove" delegate="move" player="DwarvenKingdom" display="Non Combat Move"/>
+            <step name="Dwarven KingdomPlace" delegate="place" player="DwarvenKingdom"/>
+            <step name="Dwarven KingdomEndTurn" delegate="endTurn" player="DwarvenKingdom"/>
+	    <!-- Ratling Horde Game Sequence -->
+            <step name="Ratling HordeCombatMove" delegate="move" player="RatlingHorde"/>
+            <step name="Ratling HordePurchase" delegate="purchase" player="RatlingHorde"/>
+            <step name="Ratling HordeBattle" delegate="battle" player="RatlingHorde"/>
+            <step name="Ratling HordeNonCombatMove" delegate="move" player="RatlingHorde" display="Non Combat Move"/>
+            <step name="Ratling HordePlace" delegate="place" player="RatlingHorde"/>
+            <step name="Ratling HordeEndTurn" delegate="endTurn" player="RatlingHorde"/>
+
+            <step name="endRoundStep" delegate="endRound"/>
+        </sequence>
+    </gamePlay>
+
+
+    <production>
+	<!-- Unit Production Cost -->
+        <productionRule name="buyCity">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="City" quantity="1"/>
+        </productionRule>
+
+
+        <!-- Unit Production Cost -->
+        <productionRule name="buySpearman">
+            <cost resource="PUs" quantity="5"/>
+            <result resourceOrUnit="Spearman" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHalberdier">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Halberdier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyReiksguard">
+            <cost resource="PUs" quantity="9"/>
+            <result resourceOrUnit="Reiksguard" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLancer">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Lancer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKnight of the Crown">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Knight of the Crown" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKnight of the Queen">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Knight of the Queen" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBowman">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Bowman" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCrossbowman">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Crossbowman" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyOgre">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Ogre" quantity="1"/>
+        </productionRule>
+	<productionRule name="buySmall Catapult">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Small Catapult" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyTrebuchet">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Trebuchet" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyChariot">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Chariot" quantity="1"/>
+        </productionRule>
+
+
+	<!-- Unit Production Cost -->
+        <productionRule name="buyGoblin Spearman">
+            <cost resource="PUs" quantity="4"/>
+            <result resourceOrUnit="Goblin Spearman" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyOrc Warrior">
+            <cost resource="PUs" quantity="6"/>
+            <result resourceOrUnit="Orc Warrior" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBlack Orc">
+            <cost resource="PUs" quantity="9"/>
+            <result resourceOrUnit="Black Orc" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGoblin Wolfrider">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Goblin Wolfrider" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGoblin Spiderrider">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Goblin Spiderrider" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyOrc Boarrider">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Orc Boarrider" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGoblin Bowman">
+            <cost resource="PUs" quantity="6"/>
+            <result resourceOrUnit="Goblin Bowman" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyOrc Crossbowman">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Orc Crossbowman" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyGiant Spider">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Giant Spider" quantity="1"/>
+        </productionRule>
+	<productionRule name="buySpearthrower">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Spearthrower" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyGoblin Wolf Chariot">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Goblin Wolf Chariot" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyOrc Boar Chariot">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Orc Boar Chariot" quantity="1"/>
+        </productionRule>
+
+
+	<!-- Unit Production Cost -->
+        <productionRule name="buyDwarven Warrior">
+            <cost resource="PUs" quantity="5"/>
+            <result resourceOrUnit="Dwarven Warrior" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLongbeard">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Longbeard" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyIron Breaker">
+            <cost resource="PUs" quantity="9"/>
+            <result resourceOrUnit="Iron Breaker" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHammerer">
+            <cost resource="PUs" quantity="11"/>
+            <result resourceOrUnit="Hammerer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBerserker">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Berserker" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGiant Slayer">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Giant Slayer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBat Swarm">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Bat Swarm" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDwarven Crossbowman">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Dwarven Crossbowman" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyCave Troll">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Cave Troll" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyFire Catapult">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Fire Catapult" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyOnager">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Onager" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyBallista">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Ballista" quantity="1"/>
+        </productionRule>
+
+
+	<!-- Unit Production Cost -->
+        <productionRule name="buyClanrat Warrior">
+            <cost resource="PUs" quantity="5"/>
+            <result resourceOrUnit="Clanrat Warrior" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyNight Runner Halberdier">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Night Runner Halberdier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyStormvermin">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Stormvermin" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPlague Censer Bearer">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Plague Censer Bearer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRat Rider">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Rat Rider" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPoison Wind Globadier">
+            <cost resource="PUs" quantity="9"/>
+            <result resourceOrUnit="Poison Wind Globadier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRat Swarm">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Rat Swarm" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyClanrat Crossbowman">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="Clanrat Crossbowman" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyRat Ogre">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Rat Ogre" quantity="1"/>
+        </productionRule>
+	<productionRule name="buySwamp Troll">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Swamp Troll" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyDoomwheel">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Doomwheel" quantity="1"/>
+        </productionRule>
+	<productionRule name="buyPlague Catapult">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Plague Catapult" quantity="1"/>
+        </productionRule>
+
+
+
+        <productionFrontier name="Empire of MenProduction">
+	    <frontierRules name="buyCity"/>
+            <frontierRules name="buySpearman"/>
+            <frontierRules name="buyHalberdier"/>
+            <frontierRules name="buyReiksguard"/>
+            <frontierRules name="buyLancer"/>
+            <frontierRules name="buyKnight of the Crown"/>
+	    <frontierRules name="buyKnight of the Queen"/>
+	    <frontierRules name="buyBowman"/>
+            <frontierRules name="buyCrossbowman"/>
+            <frontierRules name="buyOgre"/>
+            <frontierRules name="buySmall Catapult"/>
+	    <frontierRules name="buyTrebuchet"/>
+	    <frontierRules name="buyChariot"/>
+        </productionFrontier>
+
+
+        <productionFrontier name="Orc TribesProduction">
+	    <frontierRules name="buyCity"/>
+	    <frontierRules name="buyGoblin Spearman"/>
+            <frontierRules name="buyOrc Warrior"/>
+            <frontierRules name="buyBlack Orc"/>
+            <frontierRules name="buyGoblin Wolfrider"/>
+            <frontierRules name="buyGoblin Spiderrider"/>
+	    <frontierRules name="buyOrc Boarrider"/>
+	    <frontierRules name="buyGoblin Bowman"/>
+            <frontierRules name="buyOrc Crossbowman"/>
+            <frontierRules name="buyGiant Spider"/>
+            <frontierRules name="buySpearthrower"/>
+	    <frontierRules name="buyGoblin Wolf Chariot"/>
+	    <frontierRules name="buyOrc Boar Chariot"/>
+        </productionFrontier>
+
+
+	<productionFrontier name="Dwarven KingdomProduction">
+	    <frontierRules name="buyCity"/>
+	    <frontierRules name="buyDwarven Warrior"/>
+            <frontierRules name="buyLongbeard"/>
+            <frontierRules name="buyIron Breaker"/>
+            <frontierRules name="buyHammerer"/>
+            <frontierRules name="buyGiant Slayer"/>
+	    <frontierRules name="buyBerserker"/>
+	    <frontierRules name="buyBat Swarm"/>
+            <frontierRules name="buyDwarven Crossbowman"/>
+            <frontierRules name="buyCave Troll"/>
+            <frontierRules name="buyFire Catapult"/>
+	    <frontierRules name="buyOnager"/>
+	    <frontierRules name="buyBallista"/>
+        </productionFrontier>
+
+
+	<productionFrontier name="Ratling HordeProduction">
+	    <frontierRules name="buyCity"/>
+	    <frontierRules name="buyClanrat Warrior"/>
+            <frontierRules name="buyNight Runner Halberdier"/>
+            <frontierRules name="buyStormvermin"/>
+            <frontierRules name="buyPlague Censer Bearer"/>
+            <frontierRules name="buyRat Rider"/>
+	    <frontierRules name="buyPoison Wind Globadier"/>
+	    <frontierRules name="buyRat Swarm"/>
+            <frontierRules name="buyClanrat Crossbowman"/>
+            <frontierRules name="buyRat Ogre"/>
+            <frontierRules name="buySwamp Troll"/>
+	    <frontierRules name="buyDoomwheel"/>
+	    <frontierRules name="buyPlague Catapult"/>
+        </productionFrontier>
+
+
+        <playerProduction player="EmpireOfMen" frontier="Empire of MenProduction"/>
+        <playerProduction player="OrcTribes" frontier="Orc TribesProduction"/>
+	<playerProduction player="DwarvenKingdom" frontier="Dwarven KingdomProduction"/>
+        <playerProduction player="RatlingHorde" frontier="Ratling HordeProduction"/>
+
+    </production>
+
+
+    <attachmentList>
+	<!-- Unit Attachment -->
+	<attachment name="unitAttachment" attachTo="City" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+        </attachment>
+	<attachment name="unitAttachment" attachTo="Craglorn Barbarian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Craglorn Bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Craglorn Cave Spider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="5"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Craglorn Stone Giant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="3"/>
+        </attachment>
+
+
+        <attachment name="unitAttachment" attachTo="Spearman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Halberdier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Reiksguard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Lancer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Knight of the Crown" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Knight of the Queen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Crossbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ogre" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="4"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Small Catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Trebuchet" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="5"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Chariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+
+	<attachment name="unitAttachment" attachTo="Goblin Spearman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Orc Warrior" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Black Orc" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Goblin Wolfrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Goblin Spiderrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Orc Boarrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Goblin Bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Orc Crossbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Giant Spider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="5"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Spearthrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="5"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Goblin Wolf Chariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Orc Boar Chariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+
+	<attachment name="unitAttachment" attachTo="Dwarven Warrior" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Longbeard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Iron Breaker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Hammerer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Giant Slayer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Berserker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bat Swarm" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>                                         	   	        	    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Dwarven Crossbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cave Troll" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fire Catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="5"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Onager" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="5"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="5"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+
+<attachment name="unitAttachment" attachTo="Clanrat Warrior" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Night Runner Halberdier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Stormvermin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Plague Censer Bearer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="0"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Rat Rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Rat Swarm" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Poison Wind Globadier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Clanrat Crossbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Rat Ogre" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="4"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Swamp Troll" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Doomwheel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>                                         	   			    <option name="requiresUnits" value="City"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Plague Catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="artillery" value="true"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="5"/>
+            <option name="requiresUnits" value="City"/>
+        </attachment>
+
+
+
+        <!-- Territory Attachment -->
+        <attachment name="territoryAttachment" attachTo="EM1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="EmpireOfMen"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="OT1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="OrcTribes"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="DK1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="DwarvenKingdom"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="RH1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="RatlingHorde"/>
+        </attachment>
+
+
+        <attachment name="territoryAttachment" attachTo="DK2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="DK3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="EM2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="EM3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="OT2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="OT3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="RH2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="RH3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+ 	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="NO12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+	    <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FDK11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FEM6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FEM10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FEM11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FOT5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FOT9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FOT11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FRH2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FRH4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FRH8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FRH9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FRH10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FRH11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ13" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ15" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ16" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ17" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ18" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ19" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ20" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ21" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ22" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ23" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ24" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ25" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="FZ26" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ27" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="FZ28" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="M1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="15"/>
+	    <option name="victoryCity" value="1"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="M2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="15"/>
+	    <option name="victoryCity" value="1"/>
+        </attachment>
+	<attachment name="territoryAttachment" attachTo="M3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="15"/>
+	    <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="M4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="15"/>
+	    <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="M5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="25"/>
+	    <option name="victoryCity" value="1"/>
+        </attachment>
+
+
+    </attachmentList>
+
+
+    <initialize>
+        <ownerInitialize>
+            <!-- Empire of Men Owned Territories -->
+            <territoryOwner territory="EM1" owner="EmpireOfMen"/>
+            <territoryOwner territory="EM2" owner="EmpireOfMen"/>
+            <territoryOwner territory="EM3" owner="EmpireOfMen"/>
+            <territoryOwner territory="FEM5" owner="EmpireOfMen"/>
+            <!-- Orc Horde Territories -->
+            <territoryOwner territory="OT1" owner="OrcTribes"/>
+            <territoryOwner territory="OT2" owner="OrcTribes"/>
+            <territoryOwner territory="OT3" owner="OrcTribes"/>
+            <territoryOwner territory="FOT3" owner="OrcTribes"/>
+            <territoryOwner territory="FOT9" owner="OrcTribes"/>
+	    <territoryOwner territory="FZ20" owner="OrcTribes"/>
+	    <!-- Dwarven Kingdom Owned Territories -->
+            <territoryOwner territory="DK1" owner="DwarvenKingdom"/>
+            <territoryOwner territory="DK2" owner="DwarvenKingdom"/>
+            <territoryOwner territory="DK3" owner="DwarvenKingdom"/>
+            <territoryOwner territory="FZ11" owner="DwarvenKingdom"/>
+            <territoryOwner territory="FZ23" owner="DwarvenKingdom"/>
+            <!-- Ratling Horde Territories -->
+            <territoryOwner territory="RH1" owner="RatlingHorde"/>
+            <territoryOwner territory="RH2" owner="RatlingHorde"/>
+            <territoryOwner territory="RH3" owner="RatlingHorde"/>
+            <territoryOwner territory="FRH6" owner="RatlingHorde"/>
+            <territoryOwner territory="FRH8" owner="RatlingHorde"/>
+        </ownerInitialize>
+
+
+        <unitInitialize>
+            		<!-- Empire of Men Unit Placements -->
+            <unitPlacement unitType="City" territory="EM1" quantity="1" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Spearman" territory="EM1" quantity="5" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Halberdier" territory="EM1" quantity="3" owner="EmpireOfMen"/>
+            <unitPlacement unitType="Reiksguard" territory="EM1" quantity="1" owner="EmpireOfMen"/>
+            <unitPlacement unitType="Bowman" territory="EM1" quantity="3" owner="EmpireOfMen"/>
+            <unitPlacement unitType="Ogre" territory="EM2" quantity="2" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Spearman" territory="EM2" quantity="2" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Lancer" territory="EM3" quantity="3" owner="EmpireOfMen"/>
+            <unitPlacement unitType="Knight of the Crown" territory="EM3" quantity="2" owner="EmpireOfMen"/>
+            <unitPlacement unitType="Knight of the Queen" territory="EM3" quantity="2" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Halberdier" territory="FEM5" quantity="3" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Reiksguard" territory="FEM5" quantity="1" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Bowman" territory="FEM5" quantity="2" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Knight of the Crown" territory="FEM5" quantity="1" owner="EmpireOfMen"/>
+	    <unitPlacement unitType="Ogre" territory="FEM5" quantity="1" owner="EmpireOfMen"/>
+                        <!-- Orc Tribes Unit Placements -->
+            <unitPlacement unitType="City" territory="OT1" quantity="1" owner="OrcTribes"/>
+            <unitPlacement unitType="Goblin Spearman" territory="OT1" quantity="7" owner="OrcTribes"/>
+            <unitPlacement unitType="Orc Warrior" territory="OT1" quantity="3" owner="OrcTribes"/>
+            <unitPlacement unitType="Black Orc" territory="OT1" quantity="1" owner="OrcTribes"/>
+            <unitPlacement unitType="Orc Crossbowman" territory="OT1" quantity="3" owner="OrcTribes"/>
+	    <unitPlacement unitType="Giant Spider" territory="OT2" quantity="2" owner="OrcTribes"/>
+	    <unitPlacement unitType="Goblin Spiderrider" territory="OT2" quantity="2" owner="OrcTribes"/>
+            <unitPlacement unitType="Goblin Wolfrider" territory="OT3" quantity="3" owner="OrcTribes"/>
+            <unitPlacement unitType="Orc Boarrider" territory="OT3" quantity="2" owner="OrcTribes"/>
+            <unitPlacement unitType="Goblin Spearman" territory="FOT3" quantity="3" owner="OrcTribes"/>
+            <unitPlacement unitType="Goblin Bowman" territory="FOT3" quantity="2" owner="OrcTribes"/>
+	    <unitPlacement unitType="Goblin Wolfrider" territory="FOT9" quantity="4" owner="OrcTribes"/>
+            <unitPlacement unitType="Goblin Spiderrider" territory="FZ20" quantity="1" owner="OrcTribes"/>
+            <unitPlacement unitType="Giant Spider" territory="FZ20" quantity="1" owner="OrcTribes"/>
+	    			<!-- Dwarven Kingdom Unit Placements -->
+            <unitPlacement unitType="City" territory="DK1" quantity="1" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Dwarven Warrior" territory="DK1" quantity="4" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Longbeard" territory="DK1" quantity="2" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Iron Breaker" territory="DK1" quantity="2" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Hammerer" territory="DK1" quantity="1" owner="DwarvenKingdom"/>
+	    <unitPlacement unitType="Dwarven Crossbowman" territory="DK1" quantity="3" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Cave Troll" territory="DK2" quantity="1" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Giant Slayer" territory="DK2" quantity="3" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Bat Swarm" territory="DK3" quantity="3" owner="DwarvenKingdom"/>
+	    <unitPlacement unitType="Onager" territory="DK3" quantity="2" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Fire Catapult" territory="FZ11" quantity="2" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Iron Breaker" territory="FZ11" quantity="3" owner="DwarvenKingdom"/>
+            <unitPlacement unitType="Berserker" territory="FZ23" quantity="2" owner="DwarvenKingdom"/>
+	    <unitPlacement unitType="Bat Swarm" territory="FZ23" quantity="1" owner="DwarvenKingdom"/>
+			<!-- Ratling Horde Unit Placements -->
+            <unitPlacement unitType="City" territory="RH1" quantity="1" owner="RatlingHorde"/>
+            <unitPlacement unitType="Clanrat Warrior" territory="RH1" quantity="5" owner="RatlingHorde"/>
+            <unitPlacement unitType="Night Runner Halberdier" territory="RH1" quantity="3" owner="RatlingHorde"/>
+            <unitPlacement unitType="Stormvermin" territory="RH1" quantity="1" owner="RatlingHorde"/>
+            <unitPlacement unitType="Clanrat Crossbowman" territory="RH1" quantity="3" owner="RatlingHorde"/>
+	    <unitPlacement unitType="Rat Ogre" territory="RH2" quantity="2" owner="RatlingHorde"/>
+            <unitPlacement unitType="Swamp Troll" territory="RH2" quantity="2" owner="RatlingHorde"/>
+            <unitPlacement unitType="Doomwheel" territory="RH2" quantity="1" owner="RatlingHorde"/>
+            <unitPlacement unitType="Rat Rider" territory="RH3" quantity="5" owner="RatlingHorde"/>
+	    <unitPlacement unitType="Poison Wind Globadier" territory="RH2" quantity="5" owner="RatlingHorde"/>
+            <unitPlacement unitType="Stormvermin" territory="FRH6" quantity="2" owner="RatlingHorde"/>
+            <unitPlacement unitType="Plague Censer Bearer" territory="FRH6" quantity="2" owner="RatlingHorde"/>
+            <unitPlacement unitType="Swamp Troll" territory="FRH8" quantity="2" owner="RatlingHorde"/>
+	    <unitPlacement unitType="Doomwheel" territory="FRH8" quantity="1" owner="RatlingHorde"/>
+            
+
+                        <!-- Neutral Unit Placements -->
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM1" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM2" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM3" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM4" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM6" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM7" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM8" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM9" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM10" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FEM11" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT1" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT2" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT4" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT5" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT6" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT7" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT8" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT10" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FOT11" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH1" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH2" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH3" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH4" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH5" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH7" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH9" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH10" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FRH11" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FDK1" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK2" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK3" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK4" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK5" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK6" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK7" quantity="1"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK8" quantity="2"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK9" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FDK10" quantity="3"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FDK11" quantity="1"/>
+            <unitPlacement unitType="Craglorn Cave Spider" territory="M1" quantity="3"/>
+            <unitPlacement unitType="Craglorn Cave Spider" territory="M2" quantity="3"/>
+            <unitPlacement unitType="Craglorn Cave Spider" territory="M3" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Cave Spider" territory="M4" quantity="3"/>
+            <unitPlacement unitType="Craglorn Cave Spider" territory="M5" quantity="5"/>
+            <unitPlacement unitType="Craglorn Barbarian" territory="FZ1" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ2" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ3" quantity="4"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ4" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ5" quantity="4"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ6" quantity="5"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ7" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ8" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ9" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ10" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ12" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ13" quantity="4"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ14" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ15" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ16" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ17" quantity="5"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ18" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ19" quantity="4"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ21" quantity="5"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ22" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ24" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ25" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ26" quantity="4"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ27" quantity="5"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ28" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ1" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ2" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ3" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Stone Giant" territory="FZ4" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ5" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ6" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ7" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Stone Giant" territory="FZ8" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ9" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ10" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ13" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Stone Giant" territory="FZ12" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ14" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ15" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ17" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Stone Giant" territory="FZ16" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ18" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ19" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ21" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Stone Giant" territory="M5" quantity="3"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ22" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ22" quantity="2"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ25" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Bowman" territory="FZ26" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ27" quantity="1"/>
+	    <unitPlacement unitType="Craglorn Barbarian" territory="FZ28" quantity="1"/>
+
+        </unitInitialize>
+
+
+        <resourceInitialize>
+            <resourceGiven player="EmpireOfMen" resource="PUs" quantity="100"/>
+            <resourceGiven player="OrcTribes" resource="PUs" quantity="100"/>
+	    <resourceGiven player="DwarvenKingdom" resource="PUs" quantity="100"/>
+            <resourceGiven player="RatlingHorde" resource="PUs" quantity="100"/>
+
+        </resourceInitialize>
+    </initialize>
+
+
+    <propertyList>
+        
+        <!-- Low Luck -->
+        <property name="Low Luck" value="true" editable="true">
+            <boolean/>
+        </property>
+       
+	<property name="5 Mine Victory" value="true" editable="true">
+            <boolean/>
+        </property>
+
+       
+        <property name="maxFactoriesPerTerritory" value="1"/>
+        <!-- Map Name: also used for map utils when asked -->
+        <property name="mapName" value="battle_for_craglorn" editable="false"/>
+        <!-- notes appear in the notes menu in the main screen, format as html -->
+        <property name="notes">
+            <string/>
+            <value>
+                <![CDATA[
+<html>
+    <body bgcolor="C0C0C0" align="center">
+        <div style="text-align: center;">
+            <br/>
+            <img src="smallMap.png"/>
+            <h1 style="font-size:200%;color:890000">Battle for Craglorn</h1>
+            <span style="font-size:120%">
+                <b>Version 0.1</b>
+            </span>
+            <br/>
+            <br/>
+            <b>Created by: Tannenbernie</b>
+            <br/>
+            <b>Updated by: N/A</b>
+            <br/>
+            <P align=center>
+
+<b>The map "Battle for Craglorn" is a fantasy setup.</b>
+<br><br>
+Mithril has been found in the barren wastes of Craglorn. Soon the word of endless riches is spread across the continent. Orc Tribes from the eastern wastes move in to claim their right on the new-found treasure. Not long and the Emperor of Men himself sends a huge army into the barren country. At the same time sturdy dwarves climb down from the northern mountains to claim what is theirs by birthright. But the Dwarven Kingdom is not all alone in the north. Hordes of Ratmen follow the call of their Ratgod to conquer the Mithril Mines. The battle for Craglorn has begun.
+<br><br><br>
+This map has no water and no ships.<br>
+This map has no bidding.<br>
+This map has no victory conditions.<br>
+This map has no technology.<br>
+<br><br><br>
+<b>Four factions are fighting for domination FFA.</b><br>
+The five mines give an anormous amount of PUs, making the control of the mines a priority target.<br>
+<br><br><br>
+Have fun!<br>
+</P>
+
+            <br/>
+            <table border="1" bgcolor="ABABAB">
+                <tr>
+                    <th>Factions</th>
+		    <th>Emblem</th>
+                </tr>
+                <tr>
+                    <td bgcolor="C4C4C4">EmpireOfMen</td>
+		    <td><img src="EOM_40.png"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="BDCDBD">OrcTribes</td>
+		    <td><img src="OT_40.png"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="79CAFF">DwarvenKingdom</td>
+		    <td><img src="DK_40.png"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="E6C8A6">RatlingHorde</td>
+		    <td><img src="RH_40.png"></td>
+                </tr>
+            </table>
+            <br/>
+            <br/>
+            <table border="1" bgcolor="ABABAB">
+                <tr>
+                    <th style="font-size:120%;000000" bgcolor="BDBDBD" colspan="12">Units</th>
+                </tr>
+                <tr>
+                    <th>Faction</th>
+		    <th>Name</th>
+                    <th>Cost</th>
+                    <th>Att</th>
+                    <th>Def</th>
+                    <th>Move</th>
+                    <th>ArtSup</th>
+                    <th>Art</th>
+                    <th>Blitz</th>
+                    <th>Notes</th>
+                </tr>
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Spearman</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Human light Infantry</td>
+                </tr>
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Halberdier</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Human defensive Infantry</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Reiksguard</td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Human heavy armored Infantry</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Lancer</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td></td>
+                    <td/>
+                    <td>true</td>
+                    <td>Human light armored fast cavalry</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Knight of the Crown</td>
+                    <td>12</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Human heavy armored cavalry</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Knight of the Queen</td>
+                    <td>14</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Human elite cavalry</td>
+                </tr>
+
+               <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Bowman</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Human offensive light artillery</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Crossbowman</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Human defensive light artillery</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Ogre</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Half-Human strong crack-infantry</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Small Catapult</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Human light warmachine</td>
+                </tr>
+
+                <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Trebuchet</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Human heavy warmachine</td>
+                </tr>
+
+               <tr bgcolor="C4C4C4">
+                    <td>EmpireOfMen</td>
+                    <td>Chariot</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Human fast warmachine</td>
+                </tr>
+
+               <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Goblin Spearman</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Greenskin light Infantry</td>
+                </tr>
+
+               <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Orc Warrior</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Greenskin Heavy Infantry</td>
+                </tr>
+
+                <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Black Orc</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Greenskin Elite Infantry</td>
+                </tr>
+
+               <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Goblin Wolfrider</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Greenskin light offensive Cavalry</td>
+                </tr>
+
+             <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Goblin Spiderrider</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Greenskin light defensive Cavalry</td>
+                </tr>
+
+               <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Orc Boarrider</td>
+                    <td>12</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Greenskin heavy Cavalry</td>
+                </tr>
+
+              <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Goblin Bowman</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Greenskin light Artillery</td>
+                </tr>
+
+              <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Orc Crossbowman</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Greenskin defensive light Artillery</td>
+                </tr>
+
+               <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Giant Spider</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Big Badass Monster, tamed by Greenskins</td>
+                </tr>
+
+              <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Speathrower</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Greenskin warmachine</td>
+                </tr>
+
+                <tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Goblin Wolf Chariot</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Greenskin fast warmachine</td>
+                </tr>
+
+		<tr bgcolor="BDCDBD">
+                    <td>OrcTribes</td>
+                    <td>Orc Boar Chariot</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Greenskin heavy warmachine</td>
+                </tr>
+
+
+
+
+		<tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Dwarven Warrior</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Defensive Dwarf Infantry</td>
+                </tr>
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Longbeard</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Veteran Dwarf Infantry</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Iron Breaker</td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Heavy armored Dwarf Infantry</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Hammerer</td>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Elite Dwarf Infantry</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Giant Slayer</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Fearless Dwarf Infantry</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Berserker</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Unstoppable fast Dwarf Infantry</td>
+                </tr>
+
+               <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Bat Swarm</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Fast and bloodthisty, tamed by Dwarves</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Dwarven Crossbowman</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Dwarf defensive light artillery</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Cave Troll</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Strong crack-infantry, tamed by Dwarves</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Fire Catapult</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Dwarf light warmachine</td>
+                </tr>
+
+                <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Onager</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Dwarf heavy warmachine</td>
+                </tr>
+
+               <tr bgcolor="79CAFF">
+                    <td>DwarvenKingdom</td>
+                    <td>Ballista</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Dwarf heavy warmachine</td>
+                </tr>
+
+
+
+               <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Clanrat Warrior</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Ratman light Infantry</td>
+                </tr>
+
+               <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Night Runner Halberdier</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Ratman defensive Infantry</td>
+                </tr>
+
+                <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Stormvermin</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Ratman Elite Infantry</td>
+                </tr>
+
+               <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Plague Censer Bearer</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Ratman poisonous offensive Infantry</td>
+                </tr>
+
+             <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Rat Rider</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Ratman light Cavalry</td>
+                </tr>
+
+               <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Rat Swarm</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Many many rats, fast and hungry</td>
+                </tr>
+
+              <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Poison Wind Globadier</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Ratman poisonous light Artillery</td>
+                </tr>
+
+              <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Clanrat Crossbowman</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td/>
+                    <td>true</td>
+                    <td/>
+                    <td>Ratman defensive light Artillery</td>
+                </tr>
+
+               <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Rat Ogre</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Biggest Rat in town, mean Crack-Infantry</td>
+                </tr>
+
+              <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Swamp Troll</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Big and ugly, tamed by Ratmen, Crack-Infantry</td>
+                </tr>
+
+                <tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Doomwheel</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Lightning-shooting fast Ratman warmachine</td>
+                </tr>
+
+		<tr bgcolor="E6C8A6">
+                    <td>RatlingHorde</td>
+                    <td>Plague Catapult</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td/>
+                    <td/>
+                    <td>true</td>
+                    <td>Ratman heavy poisonous warmachine</td>
+                </tr>
+
+
+
+		<tr bgcolor="D3D3D3">
+                    <td>Neutral</td>
+                    <td>Craglorn Barbarian</td>
+                    <td>N/A</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Half-Human light Infantry</td>
+                </tr>
+
+              <tr bgcolor="D3D3D3">
+                    <td>Neutral</td>
+                    <td>Craglorn Bowman</td>
+                    <td>N/A</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>true</td>
+                    <td/>
+                    <td/>
+                    <td>Half-Human light Artillery</td>
+                </tr>
+
+                <tr bgcolor="D3D3D3">
+                    <td>Neutral</td>
+                    <td>Craglorn Cave Spider</td>
+                    <td>N/A</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Big, mean and hungry</td>
+                </tr>
+
+		<tr bgcolor="D3D3D3">
+                    <td>Neutral</td>
+                    <td>Craglorn Stone Giant</td>
+                    <td>N/A</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>Impatient Giant, takes no shit</td>
+                </tr>
+
+            </table>
+            <br/>
+            <br/>
+        </div>
+    </body>
+</html>   
+				]]>
+            </value>
+        </property>
+    </propertyList>
+</game>

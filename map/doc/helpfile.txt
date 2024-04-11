@@ -1,0 +1,107 @@
+<!-- Units Empire of Men -->
+        <unit name="Spearman"/>
+        <unit name="Halberdier"/> 
+        <unit name="Reiksguard"/>
+        <unit name="Lancer"/>
+        <unit name="Knight of the crown"/>
+        <unit name="Knight of the queen"/>
+        <unit name="Bowman"/>
+        <unit name="Crossbowman"/>
+        <unit name="Ogre"/>
+	<unit name="Small Catapult">
+	<unit name="Trebuchet">
+	<unit name="Chariot">
+
+<!-- Units Orc Tribes -->
+        <unit name="Goblin Spearman"/>
+        <unit name="Orc Warrior"/> 
+        <unit name="Black Orc"/>
+        <unit name="Goblin Wolfrider"/>
+	<unit name="Goblin Spiderrider"/>
+        <unit name="Orc Boarrider"/>
+        <unit name="Goblin Bowman"/>
+        <unit name="Orc Crossbowman"/>
+        <unit name="Giant Spider"/>
+	<unit name="Spearthrower">
+	<unit name="Goblin Wolf Chariot">
+	<unit name="Orc Boar Chariot">
+
+<!-- Units Dwarven Kingdom -->
+	<unit name="Dwarven Warrior"/>
+        <unit name="Longbeards"/> 
+        <unit name="Iron Breaker"/>
+        <unit name="Hammerer"/>
+        <unit name="Giant Slayer"/>
+        <unit name="Berserker"/>
+        <unit name="Bat Swarm"/>
+        <unit name="Dwarven Crossbowman"/>
+        <unit name="Cave Troll"/>
+	<unit name="Fire Catapult">
+	<unit name="Onager">
+	<unit name="Ballista">
+
+<!-- Units Rat Horde -->
+	<unit name="Clanrat Warrior"/>
+        <unit name="Night Runner Halberdier"/> 
+        <unit name="Stormvermin"/>
+        <unit name="Plague Censer Bearer"/>
+        <unit name="Rat Rider"/>
+        <unit name="Poison Wind Globadier"/>
+        <unit name="Rat Swarm"/>
+        <unit name="Clanrat Crossbowman"/>
+        <unit name="Rat Ogre"/>
+	<unit name="Swamp Troll">
+	<unit name="Doomwheel">
+	<unit name="Plague Catapult">
+
+
+<option name="artillerySupportable" value="true"/>
+<option name="artillery" value="true"/>
+<option name="canBlitz" value="true"/>
+
+
+
+EoM Army - FEM5 (73)
+3 Halberdier
+1 Reiksguard
+2 Bowman
+1 Knight of the Crown
+1 Ogre
+
+
+DK Def Army - FZ11 (51)
+2 Fire Catapult
+3 Iron Breaker
+
+DK Scouts - FZ23 (27)
+2 Berserker
+1 Bat Swarm
+
+
+RH Att Army - FRH6 (30)
+2 Stormvermin
+2 Plague Censer Bearer
+
+RH Att Army - FRH8 (42)
+2 Swamp Troll
+1 Doomwheel
+
+
+OT G Scouts - FOT3 (24)
+3 Goblin Spearman
+2 Goblin Bowman
+
+OT G Scouts - FOT9 (28)
+4 Goblin Wolfrider
+
+OT G Scouts - FZ20 (23)
+1 Goblin Spiderrider
+1 Giant Spider
+
+
+C4C4C4
+BDCDBD
+79CAFF
+E6C8A6
+D3D3D3
+

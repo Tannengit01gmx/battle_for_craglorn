@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="Bmap1" version="0.1"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <map>
+        <!-- Territory Definitions -->
+        <territory name="b1"/>
+	<territory name="b2"/>
+	<territory name="b3"/>
+	<territory name="b4"/>
+	<territory name="b5"/>
+	<territory name="b6"/>
+	<territory name="b7"/>
+	<territory name="b8"/>
+	<territory name="b9"/>
+	<territory name="b10"/>
+	<territory name="b11"/>
+	<territory name="b12"/>
+	<territory name="b13"/>
+	<territory name="b14"/>
+	<territory name="b15"/>
+	<territory name="b16"/>
+	<territory name="b17"/>
+	<territory name="b18"/>
+	<territory name="b19"/>
+	<territory name="b20"/>
+	<territory name="b21"/>
+	<territory name="b22"/>
+	<territory name="b23"/>
+	<territory name="b24"/>
+	<territory name="b25"/>
+	<territory name="b26"/>
+	<territory name="b27"/>
+	<territory name="b28"/>
+	<territory name="b29"/>
+	<territory name="b30"/>
+	<territory name="b31"/>
+	<territory name="b32"/>
+	<territory name="b33"/>
+	<territory name="b34"/>
+	<territory name="b35"/>
+	<territory name="b36"/>
+	<territory name="b37"/>
+	<territory name="b38"/>
+	<territory name="b39"/>
+	<territory name="b40"/>
+	<territory name="b41"/>
+	<territory name="b42"/>
+
+        <!-- Territory Connections -->
+        <connection t1="b1" t2="b2"/>
+	<connection t1="b1" t2="b9"/>
+	<connection t1="b2" t2="b3"/>
+	<connection t1="b2" t2="b5"/>
+	<connection t1="b3" t2="b4"/>
+	<connection t1="b3" t2="b9"/>
+	<connection t1="b3" t2="b10"/>
+	<connection t1="b4" t2="b5"/>
+	<connection t1="b4" t2="b10"/>
+	<connection t1="b4" t2="b11"/>
+	<connection t1="b5" t2="b6"/>
+	<connection t1="b5" t2="b11"/>
+	<connection t1="b5" t2="b12"/>
+	<connection t1="b6" t2="b8"/>
+	<connection t1="b6" t2="b12"/>
+	<connection t1="b6" t2="b13"/>
+	<connection t1="b7" t2="b6"/>
+	<connection t1="b7" t2="b8"/>
+	<connection t1="b7" t2="b15"/>
+	<connection t1="b8" t2="b15"/>
+	<connection t1="b8" t2="b17"/>
+	<connection t1="b9" t2="b10"/>
+	<connection t1="b9" t2="b19"/>
+	<connection t1="b10" t2="b11"/>
+	<connection t1="b10" t2="b19"/>
+	<connection t1="b10" t2="b20"/>
+	<connection t1="b11" t2="b12"/>
+	<connection t1="b11" t2="b20"/>
+	<connection t1="b12" t2="b13"/>
+	<connection t1="b12" t2="b14"/>
+	<connection t1="b12" t2="b20"/>
+	<connection t1="b12" t2="b21"/>
+	<connection t1="b12" t2="b22"/>
+	<connection t1="b13" t2="b14"/>
+	<connection t1="b13" t2="b15"/>
+	<connection t1="b13" t2="b16"/>
+	<connection t1="b14" t2="b16"/>
+	<connection t1="b14" t2="b23"/>
+	<connection t1="b15" t2="b16"/>
+	<connection t1="b16" t2="b17"/>
+	<connection t1="b16" t2="b23"/>
+	<connection t1="b16" t2="b26"/>
+	<connection t1="b16" t2="b27"/>
+	<connection t1="b17" t2="b27"/>
+	<connection t1="b18" t2="b19"/>
+	<connection t1="b18" t2="b24"/>
+	<connection t1="b19" t2="b20"/>
+	<connection t1="b19" t2="b24"/>
+	<connection t1="b19" t2="b28"/>
+	<connection t1="b20" t2="b21"/>
+	<connection t1="b20" t2="b25"/>
+	<connection t1="b20" t2="b29"/>
+	<connection t1="b20" t2="b30"/>
+	<connection t1="b20" t2="b31"/>
+	<connection t1="b20" t2="b32"/>
+	<connection t1="b21" t2="b22"/>
+	<connection t1="b21" t2="b25"/>
+	<connection t1="b22" t2="b14"/>
+	<connection t1="b22" t2="b23"/>
+	<connection t1="b22" t2="b25"/>
+	<connection t1="b22" t2="b26"/>
+	<connection t1="b22" t2="b33"/>
+	<connection t1="b23" t2="b26"/>
+	<connection t1="b24" t2="b28"/>
+	<connection t1="b24" t2="b35"/>
+	<connection t1="b25" t2="b32"/>
+	<connection t1="b26" t2="b27"/>
+	<connection t1="b26" t2="b34"/>
+	<connection t1="b27" t2="b34"/>
+	<connection t1="b27" t2="b42"/>
+	<connection t1="b28" t2="b29"/>
+	<connection t1="b28" t2="b35"/>
+	<connection t1="b28" t2="b36"/>
+	<connection t1="b28" t2="b37"/>
+	<connection t1="b29" t2="b30"/>
+	<connection t1="b29" t2="b37"/>
+	<connection t1="b30" t2="b31"/>
+	<connection t1="b30" t2="b38"/>
+	<connection t1="b31" t2="b32"/>
+	<connection t1="b31" t2="b38"/>
+	<connection t1="b32" t2="b33"/>
+	<connection t1="b32" t2="b39"/>
+	<connection t1="b32" t2="b40"/>
+	<connection t1="b33" t2="b34"/>
+	<connection t1="b33" t2="b40"/>
+	<connection t1="b33" t2="b41"/>
+	<connection t1="b33" t2="b42"/>
+	<connection t1="b34" t2="b42"/>
+	<connection t1="b35" t2="b36"/>
+	<connection t1="b36" t2="b37"/>
+	<connection t1="b36" t2="b38"/>
+	<connection t1="b37" t2="b38"/>
+	<connection t1="b38" t2="b39"/>
+	<connection t1="b38" t2="b41"/>
+	<connection t1="b39" t2="b40"/>
+	<connection t1="b39" t2="b41"/>
+	<connection t1="b40" t2="b41"/>
+	<connection t1="b41" t2="b42"/>
+
+    </map>
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+    <playerList>
+        <player name="Normannen" optional="false"/>
+        <player name="Sachsen" optional="false"/>
+    </playerList>
+    <unitList>
+        <unit name="Speerkaempfer"/>
+        <unit name="Axtmann"/> 
+        <unit name="Schwertkaempfer"/>
+        <unit name="Bogenschuetze"/>
+        <unit name="Armbrustschuetze"/>
+        <unit name="Lanzenreiter"/>
+        <unit name="Ritter"/>
+        <unit name="Speerschleuder"/>
+	<unit name="city"/>
+    </unitList>
+
+
+
+    <gamePlay>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+        
+        <sequence>
+            <!-- Normannen Game Sequence -->
+            <step name="NormannenCombatMove" delegate="move" player="Normannen"/>
+            <step name="NormannenPurchase" delegate="purchase" player="Normannen"/>
+            <step name="NormannenBattle" delegate="battle" player="Normannen"/>
+            <step name="NormannenNonCombatMove" delegate="move" player="Normannen" display="Non Combat Move"/>
+            <step name="NormannenPlace" delegate="place" player="Normannen"/>
+            <step name="NormannenEndTurn" delegate="endTurn" player="Normannen"/>
+            <!-- Sachsen Game Sequence -->
+            <step name="SachsenCombatMove" delegate="move" player="Sachsen"/>
+            <step name="Sachsen" delegate="purchase" player="Sachsen"/>
+            <step name="SachsenBattle" delegate="battle" player="Sachsen"/>
+            <step name="SachsenNonCombatMove" delegate="move" player="Sachsen" display="Non Combat Move"/>
+            <step name="SachsenPlace" delegate="place" player="Sachsen"/>
+            <step name="SachsenEndTurn" delegate="endTurn" player="Sachsen"/>
+            <step name="endRoundStep" delegate="endRound"/>
+        </sequence>
+    </gamePlay>
+
+
+    <production>
+        <!-- Unit Production Cost -->
+        <productionRule name="buySpeerkaempfer">
+            <cost resource="PUs" quantity="3"/>
+            <result resourceOrUnit="Speerkaempfer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAxtmann">
+            <cost resource="PUs" quantity="5"/>
+            <result resourceOrUnit="Axtmann" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySchwertkaempfer">
+            <cost resource="PUs" quantity="5"/>
+            <result resourceOrUnit="Schwertkaempfer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBogenschuetze">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Bogenschuetze" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmbrustschuetze">
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="Armbrustschuetze" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLanzenreiter">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Lanzenreiter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRitter">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Ritter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpeerschleuder">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Speerschleuder" quantity="1"/>
+        </productionRule>
+	<productionRule name="buycity">
+            <cost resource="PUs" quantity="30"/>
+            <result resourceOrUnit="city" quantity="1"/>
+        </productionRule>
+
+
+        <productionFrontier name="NormannenProduction">
+            <frontierRules name="buySpeerkaempfer"/>
+            <frontierRules name="buyAxtmann"/>
+            <frontierRules name="buyBogenschuetze"/>
+            <frontierRules name="buyArmbrustschuetze"/>
+            <frontierRules name="buyRitter"/>
+	    <frontierRules name="buycity"/>
+        </productionFrontier>
+        <productionFrontier name="SachsenProduction">
+            <frontierRules name="buySpeerkaempfer"/>
+            <frontierRules name="buySchwertkaempfer"/>
+            <frontierRules name="buyBogenschuetze"/>
+            <frontierRules name="buyArmbrustschuetze"/>
+            <frontierRules name="buyLanzenreiter"/>
+            <frontierRules name="buySpeerschleuder"/>
+	    <frontierRules name="buycity"/>
+        </productionFrontier>
+
+
+        <playerProduction player="Normannen" frontier="NormannenProduction"/>
+        <playerProduction player="Sachsen" frontier="SachsenProduction"/>
+    </production>
+
+
+    <attachmentList>
+            <!-- Unit Attachment -->
+        <attachment name="unitAttachment" attachTo="Speerkaempfer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Axtmann" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Schwertkaempfer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bogenschuetze" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armbrustschuetze" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Lanzenreiter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="3"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="2"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ritter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="3"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="4"/>                                         	    <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Speerschleuder" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="5"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="4"/>
+            <option name="requiresUnits" value="city"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="city" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+        </attachment>
+
+
+
+
+
+        <!-- Territory Attachment -->
+        <attachment name="territoryAttachment" attachTo="b1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="Normannen"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b42" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="capital" value="Sachsen"/>
+        </attachment>
+        
+        <attachment name="territoryAttachment" attachTo="b2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="7"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="7"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b13" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b15" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b16" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="8"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b17" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b18" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="7"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b19" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b20" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b21" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b22" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b23" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b24" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b25" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="7"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b26" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="8"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b27" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b28" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b29" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b30" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b31" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b32" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b33" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b34" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b35" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b36" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b37" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b38" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b39" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b40" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="b41" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+    </attachmentList>
+
+
+    <initialize>
+        <ownerInitialize>
+            <!-- Normannen Owned Territories -->
+            <territoryOwner territory="b1" owner="Normannen"/>
+            <territoryOwner territory="b2" owner="Normannen"/>
+            <territoryOwner territory="b3" owner="Normannen"/>
+            <territoryOwner territory="b4" owner="Normannen"/>
+            <territoryOwner territory="b5" owner="Normannen"/>
+            <!-- Sachsen Owned Territories -->
+            <territoryOwner territory="b42" owner="Sachsen"/>
+            <territoryOwner territory="b41" owner="Sachsen"/>
+            <territoryOwner territory="b40" owner="Sachsen"/>
+            <territoryOwner territory="b39" owner="Sachsen"/>
+            <territoryOwner territory="b38" owner="Sachsen"/>
+        </ownerInitialize>
+
+
+        <unitInitialize>
+            <!-- Normannen Unit Placements -->
+            <unitPlacement unitType="city" territory="b1" quantity="1" owner="Normannen"/>
+            <unitPlacement unitType="Ritter" territory="b2" quantity="2" owner="Normannen"/>
+            <unitPlacement unitType="Armbrustschuetze" territory="b3" quantity="3" owner="Normannen"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b4" quantity="3" owner="Normannen"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b5" quantity="3" owner="Normannen"/>
+                        <!-- Sachsen Unit Placements -->
+            <unitPlacement unitType="city" territory="b42" quantity="1" owner="Sachsen"/>
+            <unitPlacement unitType="Lanzenreiter" territory="b41" quantity="3" owner="Sachsen"/>
+            <unitPlacement unitType="Bogenschuetze" territory="b40" quantity="3" owner="Sachsen"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b39" quantity="3" owner="Sachsen"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b38" quantity="3" owner="Sachsen"/>
+                        <!-- Neutral Unit Placements -->
+            <unitPlacement unitType="Speerkaempfer" territory="b6" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b7" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b8" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b9" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b10" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b11" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b12" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b13" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b14" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b15" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b16" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b17" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b18" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b19" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b20" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b21" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b22" quantity="3"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b23" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b24" quantity="3"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b25" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b26" quantity="3"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b27" quantity="2"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b28" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b29" quantity="4"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b30" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b31" quantity="4"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b32" quantity="3"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b33" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b34" quantity="4"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b35" quantity="1"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b36" quantity="3"/>
+            <unitPlacement unitType="Speerkaempfer" territory="b37" quantity="4"/>
+        </unitInitialize>
+
+
+        <resourceInitialize>
+            <resourceGiven player="Normannen" resource="PUs" quantity="50"/>
+            <resourceGiven player="Sachsen" resource="PUs" quantity="50"/>
+        </resourceInitialize>
+    </initialize>
+
+
+    <propertyList>
+        <!-- Low Luck -->
+        <property name="Low Luck" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="mapName" value="Bmap1" editable="false"/>
+        <!-- notes appear in the notes menu in the main screen, format as html -->
+        <property name="notes">
+            <string/>
+            <value>
+                <![CDATA[
+
+
+<html>
+    <body bgcolor="998855" align="center">
+        <div style="text-align: center;">
+            <br/>
+            <img src="smallMap.jpg"/>
+            <h1 style="font-size:200%;color:890000">Bmap1</h1>
+            <span style="font-size:120%">
+                <b>Version 0.1</b>
+            </span>
+            <br/>
+            <br/>
+            <b>Created by: Tannenbernie Che</b>
+            <br/>
+            <b>Updated by: None</b>
+            <br/>
+            <br/>Normannen vs Sachsen      
+            <br/>
+            <table border="1" bgcolor="ABABAB">
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <th bgcolor="CC4422">Normannen</th>
+                    <th bgcolor="CCBBAA">Sachsen</th>
+                </tr>
+                            </table>
+            <br/>
+            <br/>
+            <br/>
+            <br/>Modified by None.     
+            <br/>Unit Images by Tannenbernie.
+            <br/>
+        </div>
+    </body>
+</html>   
+  
+				]]>
+            </value>
+        </property>
+    </propertyList>
+</game>

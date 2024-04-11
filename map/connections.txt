@@ -1,0 +1,366 @@
+<!-- Territory Definitions -->
+<territory name="DK1"/>
+<territory name="DK2"/>
+<territory name="DK3"/>
+<territory name="EM1"/>
+<territory name="EM2"/>
+<territory name="EM3"/>
+<territory name="FDK1"/>
+<territory name="FDK2"/>
+<territory name="FDK3"/>
+<territory name="FDK4"/>
+<territory name="FDK5"/>
+<territory name="FDK6"/>
+<territory name="FDK7"/>
+<territory name="FDK8"/>
+<territory name="FDK9"/>
+<territory name="FDK10"/>
+<territory name="FDK11"/>
+<territory name="FEM1"/>
+<territory name="FEM2"/>
+<territory name="FEM3"/>
+<territory name="FEM4"/>
+<territory name="FEM5"/>
+<territory name="FEM6"/>
+<territory name="FEM7"/>
+<territory name="FEM8"/>
+<territory name="FEM9"/>
+<territory name="FEM10"/>
+<territory name="FEM11"/>
+<territory name="FOT1"/>
+<territory name="FOT2"/>
+<territory name="FOT3"/>
+<territory name="FOT4"/>
+<territory name="FOT5"/>
+<territory name="FOT6"/>
+<territory name="FOT7"/>
+<territory name="FOT8"/>
+<territory name="FOT9"/>
+<territory name="FOT10"/>
+<territory name="FOT11"/>
+<territory name="FRH1"/>
+<territory name="FRH2"/>
+<territory name="FRH3"/>
+<territory name="FRH4"/>
+<territory name="FRH5"/>
+<territory name="FRH6"/>
+<territory name="FRH7"/>
+<territory name="FRH8"/>
+<territory name="FRH9"/>
+<territory name="FRH10"/>
+<territory name="FRH11"/>
+<territory name="FZ1"/>
+<territory name="FZ2"/>
+<territory name="FZ3"/>
+<territory name="FZ4"/>
+<territory name="FZ5"/>
+<territory name="FZ6"/>
+<territory name="FZ7"/>
+<territory name="FZ8"/>
+<territory name="FZ9"/>
+<territory name="FZ10"/>
+<territory name="FZ11"/>
+<territory name="FZ12"/>
+<territory name="FZ13"/>
+<territory name="FZ14"/>
+<territory name="FZ15"/>
+<territory name="FZ16"/>
+<territory name="FZ17"/>
+<territory name="FZ18"/>
+<territory name="FZ19"/>
+<territory name="FZ20"/>
+<territory name="FZ21"/>
+<territory name="FZ22"/>
+<territory name="FZ23"/>
+<territory name="FZ24"/>
+<territory name="FZ25"/>
+<territory name="FZ26"/>
+<territory name="FZ27"/>
+<territory name="FZ28"/>
+<territory name="M1"/>
+<territory name="M2"/>
+<territory name="M3"/>
+<territory name="M4"/>
+<territory name="M5"/>
+<territory name="NO1" water="true"/>
+<territory name="NO2" water="true"/>
+<territory name="NO3" water="true"/>
+<territory name="NO4" water="true"/>
+<territory name="NO5" water="true"/>
+<territory name="NO6" water="true"/>
+<territory name="NO7" water="true"/>
+<territory name="NO8" water="true"/>
+<territory name="NO9" water="true"/>
+<territory name="NO10" water="true"/>
+<territory name="NO11" water="true"/>
+<territory name="NO12" water="true"/>
+<territory name="OT1"/>
+<territory name="OT2"/>
+<territory name="OT3"/>
+<territory name="REL1"/>
+<territory name="RH1"/>
+<territory name="RH2"/>
+<territory name="RH3"/>
+
+<!-- Territory Connections -->
+<connection t1="DK1" t2="DK2"/>
+<connection t1="DK1" t2="NO3"/>
+<connection t1="DK1" t2="NO4"/>
+<connection t1="DK2" t2="DK3"/>
+<connection t1="DK2" t2="FDK2"/>
+<connection t1="DK2" t2="NO3"/>
+<connection t1="DK2" t2="NO4"/>
+<connection t1="DK3" t2="FDK1"/>
+<connection t1="DK3" t2="FDK2"/>
+<connection t1="DK3" t2="NO3"/>
+<connection t1="EM1" t2="EM2"/>
+<connection t1="EM1" t2="NO1"/>
+<connection t1="EM1" t2="NO2"/>
+<connection t1="EM2" t2="EM3"/>
+<connection t1="EM2" t2="FEM7"/>
+<connection t1="EM2" t2="NO1"/>
+<connection t1="EM2" t2="NO2"/>
+<connection t1="EM3" t2="FEM7"/>
+<connection t1="EM3" t2="FEM8"/>
+<connection t1="EM3" t2="FEM9"/>
+<connection t1="EM3" t2="NO1"/>
+<connection t1="FDK1" t2="FDK2"/>
+<connection t1="FDK1" t2="FDK3"/>
+<connection t1="FDK2" t2="FDK3"/>
+<connection t1="FDK2" t2="FDK4"/>
+<connection t1="FDK2" t2="FDK7"/>
+<connection t1="FDK2" t2="NO4"/>
+<connection t1="FDK3" t2="FDK4"/>
+<connection t1="FDK3" t2="FDK5"/>
+<connection t1="FDK3" t2="FDK6"/>
+<connection t1="FDK3" t2="NO9"/>
+<connection t1="FDK4" t2="FDK7"/>
+<connection t1="FDK4" t2="NO9"/>
+<connection t1="FDK5" t2="FDK6"/>
+<connection t1="FDK5" t2="FZ1"/>
+<connection t1="FDK5" t2="FZ2"/>
+<connection t1="FDK6" t2="FZ2"/>
+<connection t1="FDK6" t2="FZ3"/>
+<connection t1="FDK6" t2="NO9"/>
+<connection t1="FDK7" t2="FDK9"/>
+<connection t1="FDK7" t2="NO4"/>
+<connection t1="FDK7" t2="NO9"/>
+<connection t1="FDK8" t2="FDK9"/>
+<connection t1="FDK8" t2="FDK10"/>
+<connection t1="FDK8" t2="FDK11"/>
+<connection t1="FDK8" t2="NO4"/>
+<connection t1="FDK9" t2="FDK11"/>
+<connection t1="FDK9" t2="NO4"/>
+<connection t1="FDK9" t2="NO9"/>
+<connection t1="FDK10" t2="FDK11"/>
+<connection t1="FDK10" t2="FZ9"/>
+<connection t1="FDK10" t2="FZ10"/>
+<connection t1="FDK11" t2="FZ10"/>
+<connection t1="FDK11" t2="FZ11"/>
+<connection t1="FDK11" t2="NO9"/>
+<connection t1="FEM1" t2="FEM2"/>
+<connection t1="FEM1" t2="FEM3"/>
+<connection t1="FEM1" t2="FZ1"/>
+<connection t1="FEM1" t2="FZ2"/>
+<connection t1="FEM2" t2="FEM3"/>
+<connection t1="FEM2" t2="FZ2"/>
+<connection t1="FEM2" t2="FZ3"/>
+<connection t1="FEM2" t2="NO10"/>
+<connection t1="FEM3" t2="FEM4"/>
+<connection t1="FEM3" t2="NO2"/>
+<connection t1="FEM3" t2="NO10"/>
+<connection t1="FEM4" t2="FEM5"/>
+<connection t1="FEM4" t2="FEM7"/>
+<connection t1="FEM4" t2="NO2"/>
+<connection t1="FEM4" t2="NO10"/>
+<connection t1="FEM5" t2="FEM6"/>
+<connection t1="FEM5" t2="FEM7"/>
+<connection t1="FEM5" t2="FEM10"/>
+<connection t1="FEM5" t2="NO10"/>
+<connection t1="FEM6" t2="FEM7"/>
+<connection t1="FEM6" t2="FEM8"/>
+<connection t1="FEM6" t2="FEM9"/>
+<connection t1="FEM6" t2="FEM10"/>
+<connection t1="FEM6" t2="FEM11"/>
+<connection t1="FEM7" t2="FEM8"/>
+<connection t1="FEM7" t2="NO2"/>
+<connection t1="FEM8" t2="FEM9"/>
+<connection t1="FEM9" t2="FEM11"/>
+<connection t1="FEM10" t2="FEM11"/>
+<connection t1="FEM10" t2="FZ6"/>
+<connection t1="FEM10" t2="FZ7"/>
+<connection t1="FEM10" t2="NO10"/>
+<connection t1="FEM11" t2="FZ5"/>
+<connection t1="FEM11" t2="FZ6"/>
+<connection t1="FOT1" t2="FOT2"/>
+<connection t1="FOT1" t2="FOT3"/>
+<connection t1="FOT1" t2="FOT4"/>
+<connection t1="FOT1" t2="FZ14"/>
+<connection t1="FOT1" t2="FZ15"/>
+<connection t1="FOT1" t2="NO12"/>
+<connection t1="FOT2" t2="FOT5"/>
+<connection t1="FOT2" t2="FZ13"/>
+<connection t1="FOT3" t2="FOT4"/>
+<connection t1="FOT3" t2="FOT6"/>
+<connection t1="FOT3" t2="NO12"/>
+<connection t1="FOT4" t2="FOT2"/>
+<connection t1="FOT4" t2="FOT5"/>
+<connection t1="FOT4" t2="FOT6"/>
+<connection t1="FOT5" t2="FOT6"/>
+<connection t1="FOT5" t2="OT3"/>
+<connection t1="FOT6" t2="FOT7"/>
+<connection t1="FOT6" t2="NO8"/>
+<connection t1="FOT6" t2="NO12"/>
+<connection t1="FOT6" t2="OT2"/>
+<connection t1="FOT6" t2="OT3"/>
+<connection t1="FOT7" t2="FOT9"/>
+<connection t1="FOT7" t2="NO8"/>
+<connection t1="FOT7" t2="NO12"/>
+<connection t1="FOT8" t2="FOT9"/>
+<connection t1="FOT8" t2="FOT10"/>
+<connection t1="FOT8" t2="NO8"/>
+<connection t1="FOT9" t2="FOT11"/>
+<connection t1="FOT9" t2="NO8"/>
+<connection t1="FOT9" t2="NO12"/>
+<connection t1="FOT10" t2="FOT11"/>
+<connection t1="FOT10" t2="FZ5"/>
+<connection t1="FOT10" t2="FZ6"/>
+<connection t1="FOT11" t2="FZ6"/>
+<connection t1="FOT11" t2="FZ7"/>
+<connection t1="FOT11" t2="NO12"/>
+<connection t1="FRH1" t2="FRH2"/>
+<connection t1="FRH1" t2="FRH4"/>
+<connection t1="FRH1" t2="FZ9"/>
+<connection t1="FRH2" t2="FRH3"/>
+<connection t1="FRH2" t2="FRH4"/>
+<connection t1="FRH2" t2="FRH5"/>
+<connection t1="FRH2" t2="FRH6"/>
+<connection t1="FRH2" t2="FZ9"/>
+<connection t1="FRH2" t2="FZ10"/>
+<connection t1="FRH3" t2="FRH6"/>
+<connection t1="FRH3" t2="FZ11"/>
+<connection t1="FRH3" t2="NO11"/>
+<connection t1="FRH4" t2="FRH5"/>
+<connection t1="FRH5" t2="FRH6"/>
+<connection t1="FRH5" t2="FRH7"/>
+<connection t1="FRH6" t2="FRH7"/>
+<connection t1="FRH6" t2="FRH8"/>
+<connection t1="FRH6" t2="NO11"/>
+<connection t1="FRH7" t2="FRH8"/>
+<connection t1="FRH7" t2="NO6"/>
+<connection t1="FRH7" t2="RH1"/>
+<connection t1="FRH7" t2="RH2"/>
+<connection t1="FRH7" t2="RH3"/>
+<connection t1="FRH8" t2="FRH9"/>
+<connection t1="FRH8" t2="NO6"/>
+<connection t1="FRH8" t2="NO11"/>
+<connection t1="FRH9" t2="FRH10"/>
+<connection t1="FRH9" t2="FRH11"/>
+<connection t1="FRH9" t2="NO6"/>
+<connection t1="FRH9" t2="NO11"/>
+<connection t1="FRH10" t2="FRH11"/>
+<connection t1="FRH10" t2="FZ14"/>
+<connection t1="FRH10" t2="FZ15"/>
+<connection t1="FRH10" t2="NO11"/>
+<connection t1="FRH11" t2="FZ13"/>
+<connection t1="FRH11" t2="FZ14"/>
+<connection t1="FZ1" t2="FZ2"/>
+<connection t1="FZ2" t2="FZ3"/>
+<connection t1="FZ3" t2="FZ4"/>
+<connection t1="FZ3" t2="NO9"/>
+<connection t1="FZ3" t2="NO10"/>
+<connection t1="FZ4" t2="FZ18"/>
+<connection t1="FZ4" t2="NO9"/>
+<connection t1="FZ4" t2="NO10"/>
+<connection t1="FZ5" t2="FZ6"/>
+<connection t1="FZ6" t2="FZ7"/>
+<connection t1="FZ7" t2="FZ8"/>
+<connection t1="FZ7" t2="NO12"/>
+<connection t1="FZ8" t2="FZ19"/>
+<connection t1="FZ8" t2="FZ20"/>
+<connection t1="FZ8" t2="NO10"/>
+<connection t1="FZ8" t2="NO12"/>
+<connection t1="FZ9" t2="FZ10"/>
+<connection t1="FZ10" t2="FRH3"/>
+<connection t1="FZ10" t2="FZ11"/>
+<connection t1="FZ11" t2="FZ12"/>
+<connection t1="FZ11" t2="NO9"/>
+<connection t1="FZ11" t2="NO11"/>
+<connection t1="FZ12" t2="FZ23"/>
+<connection t1="FZ12" t2="FZ24"/>
+<connection t1="FZ12" t2="NO9"/>
+<connection t1="FZ12" t2="NO11"/>
+<connection t1="FZ13" t2="FZ14"/>
+<connection t1="FZ14" t2="FOT2"/>
+<connection t1="FZ14" t2="FZ15"/>
+<connection t1="FZ15" t2="FZ16"/>
+<connection t1="FZ15" t2="NO11"/>
+<connection t1="FZ15" t2="NO12"/>
+<connection t1="FZ16" t2="FZ21"/>
+<connection t1="FZ16" t2="FZ22"/>
+<connection t1="FZ16" t2="NO11"/>
+<connection t1="FZ16" t2="NO12"/>
+<connection t1="FZ17" t2="FZ4"/>
+<connection t1="FZ17" t2="FZ18"/>
+<connection t1="FZ17" t2="FZ25"/>
+<connection t1="FZ17" t2="M2"/>
+<connection t1="FZ17" t2="NO9"/>
+<connection t1="FZ18" t2="FZ25"/>
+<connection t1="FZ18" t2="FZ27"/>
+<connection t1="FZ18" t2="M1"/>
+<connection t1="FZ18" t2="NO10"/>
+<connection t1="FZ19" t2="FZ20"/>
+<connection t1="FZ19" t2="FZ27"/>
+<connection t1="FZ19" t2="M1"/>
+<connection t1="FZ19" t2="NO10"/>
+<connection t1="FZ20" t2="FZ22"/>
+<connection t1="FZ20" t2="FZ27"/>
+<connection t1="FZ20" t2="FZ28"/>
+<connection t1="FZ20" t2="M4"/>
+<connection t1="FZ20" t2="NO12"/>
+<connection t1="FZ21" t2="FZ22"/>
+<connection t1="FZ21" t2="FZ26"/>
+<connection t1="FZ21" t2="FZ28"/>
+<connection t1="FZ21" t2="M3"/>
+<connection t1="FZ21" t2="NO11"/>
+<connection t1="FZ22" t2="FZ28"/>
+<connection t1="FZ22" t2="M4"/>
+<connection t1="FZ22" t2="NO12"/>
+<connection t1="FZ23" t2="FZ24"/>
+<connection t1="FZ23" t2="FZ25"/>
+<connection t1="FZ23" t2="M2"/>
+<connection t1="FZ23" t2="NO9"/>
+<connection t1="FZ24" t2="FZ25"/>
+<connection t1="FZ24" t2="FZ26"/>
+<connection t1="FZ24" t2="NO11"/>
+<connection t1="FZ25" t2="FZ26"/>
+<connection t1="FZ25" t2="FZ27"/>
+<connection t1="FZ25" t2="M2"/>
+<connection t1="FZ25" t2="M5"/>
+<connection t1="FZ26" t2="FZ28"/>
+<connection t1="FZ26" t2="M3"/>
+<connection t1="FZ26" t2="M5"/>
+<connection t1="FZ27" t2="FZ28"/>
+<connection t1="FZ27" t2="M1"/>
+<connection t1="FZ27" t2="M5"/>
+<connection t1="FZ28" t2="M5"/>
+<connection t1="M1" t2="NO10"/>
+<connection t1="M2" t2="NO9"/>
+<connection t1="M3" t2="FZ24"/>
+<connection t1="M3" t2="NO11"/>
+<connection t1="M4" t2="NO12"/>
+<connection t1="NO5" t2="RH1"/>
+<connection t1="NO5" t2="RH2"/>
+<connection t1="NO5" t2="RH3"/>
+<connection t1="NO6" t2="RH1"/>
+<connection t1="NO7" t2="OT1"/>
+<connection t1="NO7" t2="OT2"/>
+<connection t1="NO7" t2="OT3"/>
+<connection t1="NO8" t2="OT1"/>
+<connection t1="NO8" t2="OT2"/>
+<connection t1="NO10" t2="FZ7"/>
+<connection t1="OT1" t2="OT2"/>
+<connection t1="OT2" t2="OT3"/>
+<connection t1="RH1" t2="RH2"/>
+<connection t1="RH2" t2="RH3"/>
+<connection t1="RH3" t2="FRH5"/>
