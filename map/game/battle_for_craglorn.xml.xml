@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="battle_for_craglorn" version="0.1"/>
+    <info name="Battle for Craglorn" version="0.1"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
 
     <map>
@@ -1684,7 +1684,7 @@
        
         <property name="maxFactoriesPerTerritory" value="1"/>
         <!-- Map Name: also used for map utils when asked -->
-        <property name="mapName" value="battle_for_craglorn" editable="false"/>
+        <property name="mapName" value="battle_for_craglorn-main" editable="false"/>
         <!-- notes appear in the notes menu in the main screen, format as html -->
         <property name="notes">
             <string/>
